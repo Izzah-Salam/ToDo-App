@@ -35,7 +35,6 @@ input{
    outline: none;
    background-color: transparent;
    border-bottom: 2px dotted #5E7F4C;
-   /* border-top: 2px solid #5E7F4C; */
    font-size: 18px; 
 }
 
@@ -54,4 +53,38 @@ input::placeholder{
     font-size: 1.5rem;
     cursor: pointer;
 
+}
+
+.list{
+    margin-top: 4rem;
+}
+.list ul {
+    list-style: none;
+  
+}
+
+.list ul li {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #5E7F4C;
+    min-width: 500px;
+    color: #627f52;
+    padding-bottom: .5rem;
+
+} 
+li::before {
+    content: "• "; 
+    color: #5E7F4C;
+    font-size: 2rem;
+    margin-left: -.5em;
+}
+
+li::after {
+    content: "X"; 
+    color: white;
+    background-color: #5E7F4C;
+    font-size: 1rem;
+    margin-left: 450px;
+    padding: .25rem .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
 }
