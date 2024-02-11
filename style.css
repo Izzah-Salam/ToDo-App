@@ -74,12 +74,7 @@ input::placeholder{
     /* margin-bottom: 1rem; */
 
 } 
-.listvalue::before {
-    content: "• "; 
-    color: #5E7F4C;
-    font-size: 2rem;
-    margin-left: -.1em;
-}
+
 .crosBtn {
     color: white;
     background-color: #5E7F4C;
